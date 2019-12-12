@@ -13,7 +13,7 @@ def home():
 
 @app.route('/movie')
 def movies():
-    json_string = """
+    json_string = "{"name : 'harry poter' , '"
                     {
                     "title" : "Black Panther", 
                     "releaseDate" : "2/16/2018",
